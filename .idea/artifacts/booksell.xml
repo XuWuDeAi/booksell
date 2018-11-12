@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="booksell">
+    <output-path>$PROJECT_DIR$/out/artifacts/booksell</output-path>
+    <root id="archive" name="booksell.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="booksell" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: net.coobird:thumbnailator:0.4.8" />
+          <element id="library" level="project" name="Maven: com.google.zxing:core:3.2.1" />
+          <element id="library" level="project" name="Maven: com.google.zxing:javase:3.2.1" />
+          <element id="library" level="project" name="Maven: com.beust:jcommander:1.48" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.11.3" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="booksell/web/Web" />
+    </root>
+  </artifact>
+</component>
